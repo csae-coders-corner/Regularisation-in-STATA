@@ -27,6 +27,7 @@ The usual cluster and robust options are available to take into account heterosc
 Some of the command options allow users to add their own judgement on the relevance of certain controls from the potentially large set of controls available, rather than leaving all the work of picking them to the routine. 
 
 For example:
+
     aset() allows you to choose a subset of potential controls that should be included in the model estimating the effect(s) of interest, regardless of whether this subset of potential controls were selected by the routine and in addition to any of those controls that were selected by the routine.
 
     partial() allows you to specify a subset of controls that should be partialled out (in the Frisch-Waugh-Lowell sense) before starting the routine.
