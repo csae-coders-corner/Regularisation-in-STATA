@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_Regularisation](https://github.com/csae-coders-corner/Regularisation-in-STATA/assets/148211163/0d36df16-0b24-4303-b860-d262f53dbadf)
+
 # Regularisation-in-STATA
 Regularisation methods, like the Least Absolute Shrinkage Operator (LASSO), have become increasingly popular in applied econometric research. [Stata Lasso](https://statalasso.github.io/references/) (written by Achim Ahrens, Christian Hansen and Mark Schaffer) is a recent package that allows researchers to estimate this type of routine in Stata. The econometrics behind the package goes beyond the scope of this post, which just provides a “mostly harmless” teaser into the clear documentation provided by the authors of the package and related papers.
 
