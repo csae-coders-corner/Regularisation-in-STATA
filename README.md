@@ -21,10 +21,9 @@ The syntax in Stata:
 
 Install **pdslasso** and **lassopack** using **ssc** install, since **pdlasso** invokes a command that is part of **lassopack** as part of its routine). The syntax for **pdslasso** is:
 
-**pdslasso** [outcome var] [treatment var(s)] ( [(large) list of controls] ) , [options]
+`pdslasso [outcome var] [treatment var(s)] ( [(large) list of controls] ) , [options]`
 
 The usual cluster and robust options are available to take into account heteroscedasticity in our data, though be aware that using these options may also influence the value of the final coefficients of interest, because they affect the selection component of the routine.
-
 
 
 Some of the command options allow users to add their own judgement on the relevance of certain controls from the potentially large set of controls available, rather than leaving all the work of picking them to the routine. 
